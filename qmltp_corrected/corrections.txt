@@ -1,0 +1,22 @@
+SYM082+1.p // parentheses
+SYM113+1.p // parentheses
+SYM035+1.p // parentheses
+SYM114+1.p // parentheses
+SYM163+1.p // parentheses
+SYM122+1.p // parentheses
+APM004+1.p // parentheses
+MML002+1.p // parentheses
+MML003+1.p // parentheses
+MML004+1.p // parentheses
+MML005+1.p // parentheses
+MML006+1.p // functor as index
+MML008+1.p // parentheses, needless dot and )
+MML009+1.p // colon
+MML010+1.p // colon
+MML013+1.p // parentheses
+MML014+1.p // functor as modal index
+MML015+1.p // functor as modal index, parentheses
+MML016+1.p // functor as modal index
+MML017+1.p // parentheses
+MML019+1.p // parentheses
+MML020+1.p // comma
