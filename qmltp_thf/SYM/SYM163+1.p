@@ -40,4 +40,4 @@ thf(q_type,type,(q : ($o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( con , conjecture , ( ( $dia @ ( $dia @ ( ( p ) & ( ~ ( q ) ) ) ) ) | ( $box @ ( p => ( $box @ ( q ) ) ) ) ) ) .
+thf ( con , conjecture , ( ( $dia @ ( ( $dia @ ( p ) ) & ( ~ ( q ) ) ) ) | ( $box @ ( p => ( $box @ ( q ) ) ) ) ) ) .
