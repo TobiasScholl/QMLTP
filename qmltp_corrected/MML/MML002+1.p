@@ -71,16 +71,16 @@ qmf(axiom_13,axiom,
 (#box(fool) : ((~ (ws(c))) => (#box(b) : (~ (ws(c))))))).
 
 qmf(axiom_t_for_fool_1,axiom,
-(! [X] : ((#box(fool) : (ws(X))) => ws(X)))).
+(! [X] : ((#box(fool) : ws(X)) => ws(X)))).
 
 qmf(axiom_t_for_fool_2,axiom,
 (! [X] : ((#box(fool) : (~ (ws(X)))) => (~ (ws(X)))))).
 
 qmf(axiom_4_for_fool_1,axiom,
-(! [X] : ((#box(fool) : (ws(X))) => (#box(fool) : (#box(fool) : (ws(X))))))).
+(! [X] : ((#box(fool) : ws(X)) => (#box(fool) : (#box(fool) : (ws(X))))))).
 
 qmf(axiom_4_for_fool_2,axiom,
-(! [X] : (((#box(fool) : (~ (ws(X)))) => (#box(fool) : (#box(fool) : (~ (ws(X))))))))).
+(! [X] : ((#box(fool) : (~ (ws(X)))) => (#box(fool) : (#box(fool) : (~ (ws(X)))))))).
 
 qmf(axiom_i_for_fool_a_1,axiom,
 (! [X] : ((#box(fool) : (ws(X))) => (#box(a) : (ws(X)))))).

@@ -27,35 +27,35 @@
 tpi(5,set_logic,modal([cumulative,rigid,local],
                       [(always,s4),(praise,s4),(fox,s4),(sing,s4)])).
 
-qmf(i_always_praise_1,axiom,
-(((#box(always) : (dropped(cheese))) => (#box(praise) : (#box(always) : (dropped(cheese))))))).
+qmf(i_always_praise_1_1,axiom,
+(((#box(always) : dropped(cheese)) => (#box(praise) : (#box(always) : dropped(cheese)))))).
 
-qmf(i_always_praise_2,axiom,
+qmf(i_always_praise_2_2,axiom,
 ((#box(always) : (~ dropped(cheese))) => (#box(praise) : (#box(always) : (~ dropped(cheese)))))).
 
-qmf(i_always_praise_1,axiom,
-(((#box(always) : (charmed(raven))) => (#box(praise) : (#box(always) : (charmed(raven))))))).
+qmf(i_always_praise_1_3,axiom,
+(((#box(always) : charmed(raven)) => (#box(praise) : (#box(always) : charmed(raven)))))).
 
-qmf(i_always_praise_2,axiom,
-(((#box(always) : (~ charmed(cheese))) => (#box(praise) : (#box(always) : (~ charmed(raven))))))).
+qmf(i_always_praise_2_4,axiom,
+((#box(always) : (~ charmed(cheese))) => (#box(praise) : (#box(always) : (~ charmed(raven)))))).
 
-qmf(i_always_praise_1,axiom,
-((#box(always) : (dropped(cheese))) => (#box(sing) : (#box(always) : (dropped(cheese)))))).
+qmf(i_always_praise_1_5,axiom,
+(((#box(always) : dropped(cheese)) => (#box(sing) : (#box(always) : dropped(cheese)))))).
 
-qmf(i_always_praise_2,axiom,
+qmf(i_always_praise_2_6,axiom,
 ((#box(always) : (~ dropped(cheese))) => (#box(sing) : (#box(always) : (~ dropped(cheese)))))).
 
-qmf(i_always_praise_1,axiom,
-((#box(always) : (charmed(raven))) => (#box(sing) : (#box(always) : (charmed(raven)))))).
+qmf(i_always_praise_1_7,axiom,
+(((#box(always) : charmed(raven)) => (#box(sing) : (#box(always) : charmed(raven)))))).
 
-qmf(i_always_praise_2,axiom,
+qmf(i_always_praise_2_8,axiom,
 ((#box(always) : (~ charmed(cheese))) => (#box(sing) : (#box(always) : (~ charmed(raven)))))).
 
 qmf(axiom_1,axiom,
-(#box(fox) : (#box(praise) : (charmed(raven))))).
+(#box(fox) : (#box(praise) : charmed(raven)))).
 
 qmf(axiom_2,axiom,
-(#box(fox) : (#box(always) : (charmed(raven) => (#box(sing) : (dropped(cheese))))))).
+(#box(fox) : (#box(always) : (charmed(raven) => (#box(sing) : dropped(cheese)))))).
 
 qmf(conj,conjecture,
  (#box(fox) : (#box(praise) : (#box(sing) : (dropped(cheese)))))).

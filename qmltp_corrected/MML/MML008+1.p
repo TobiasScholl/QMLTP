@@ -54,10 +54,10 @@ qmf(axiom_7,axiom,
 (#box(fool) : (? [X] : (? [Y] : (a(X) & b(Y) & (succ(X,Y) | succ(Y,X))))))).
 
 qmf(axiom_8,axiom,
-(! [X] : (a(X) => (#box(bill) : (a(X)))))).
+(! [X] : (a(X) => (#box(bill) : a(X))))).
 
 qmf(axiom_9,axiom,
-(! [X] : (b(X) => (#box(bill) : (b(X)))))).
+(! [X] : (b(X) => (#box(bill) : b(X))))).
 
 qmf(axiom_i_for_fool_a_1,axiom,
 (! [X] : ((#box(fool) : (a(X))) => (#box(anne) : (a(X)))))).

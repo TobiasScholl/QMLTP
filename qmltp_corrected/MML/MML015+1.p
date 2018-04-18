@@ -40,7 +40,11 @@ qmf(axiom_1_d,axiom,
 qmf(axiom_2,axiom,
  (#box(b_alice) : ((#box(b_bob): (#box(b_alice) : (bigcity(portland)))) |
                     (#box(b_bob): (#box(b_alice) : (beautycity(portland))))))).
- 
-qmf(con,conjecture,
- (#box(b_alice) : (#box(b_bob) : (((#box(alice) : (bigcity(portland))) => (~ (#box(i_alice) : (bigcity(portland))))) & ((#box(alice) : (beautycity(portland))) => (~ (#box(i_alice) : (beautycity(portland))))))))).
 
+qmf(con,conjecture,
+ (#box(b_alice) : ((#box(b_bob): ((#box(alice) : (bigcity(portland))) =>
+ (~ (#box(i_alice) : (bigcity(portland)))))) & ((#box(alice) : (beautycity(portland))) =>
+ (~ (#box(i_alice) : (beautycity(portland)))))))).
+
+
+ 

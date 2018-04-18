@@ -25,7 +25,7 @@
 %--------------------------------------------------------------------------
 
 tpi(6,set_logic,modal([cumulative,rigid,local],
-                      [(pour_a,k),(pour_b,k)])).
+                      [(make_c,k),(pour_a,k),(poor_b,k)])).
 
 
 qmf(pour_ab_make_axiom_1,axiom,
@@ -48,4 +48,3 @@ qmf(make_c_acid,axiom,
 
 qmf(conj,conjecture,
  ((#dia(pour_a) : (~ acid)) & (#dia(pour_a) : (#dia(pour_b) : acid)))).
-

@@ -23,7 +23,7 @@
 %--------------------------------------------------------------------------
 
 tpi(14,set_logic,modal([cumulative,rigid,local],
-                       [(b_alice,s5),(b_bob,s5),(i_alice,s5)])).
+                       [(b_alice,s5),(b_bob,s5),(i_alice,s5),(i_bob,s5)])).
 
 qmf(axiom_1_alice,axiom,
  (#box(b_alice) : ((bigcity(portland) & (#box(b_alice) : (#box(b_bob) : (~ bigcity(portland))))) => (#box(i_alice) : (#box(b_bob) : (bigcity(portland))))))).
