@@ -1,10 +1,23 @@
-SYM082+1.p // parentheses
-SYM113+1.p // parentheses
-SYM035+1.p // parentheses
-SYM114+1.p // parentheses
-SYM163+1.p // parentheses
-SYM122+1.p // parentheses
-APM004+1.p // parentheses
+APM004+1.p: parentheses (fixed)
+APM007+1.p: symbol "qmltpeq" without axiomatization
+SYM035+1.p: parentheses (fixed)
+SYM054+1.p: symbol "qmltpeq" without axiomatization
+SYM055+1.p: symbol "=" without axiomatization
+SYM056+1.p: symbol "=" without axiomatization
+SYM057+1.p: symbol "=" without axiomatization
+SYM058+1.p: symbol "qmltpeq" without axiomatization
+SYM064+1.p: symbol "=" without axiomatization
+SYM068+1.p: symbol "=" and "qmltpeq" without axiomatization
+SYM069+1.p: symbol "qmltpeq" without axiomatization
+SYM070+1.p: symbol "qmltpeq" without axiomatization
+SYM071+1.p: symbol "qmltpeq" without axiomatization
+SYM072+1.p: symbol "qmltpeq" without axiomatization
+SYM082+1.p: parentheses (fixed)
+SYM085+1.p: symbol "=" without axiomatization
+SYM113+1.p: parentheses (fixed)
+SYM114+1.p: parentheses (fixed)
+SYM122+1.p: parentheses (fixed)
+SYM163+1.p: parentheses (fixed)
 
 MML:
 2: removed superfluous parentheses from axiom_4_for_fool_2
