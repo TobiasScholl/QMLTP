@@ -1,19 +1,20 @@
 APM004+1.p: parentheses (fixed)
-APM007+1.p: symbol "qmltpeq" without axiomatization
+APM007+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
 SYM035+1.p: parentheses (fixed)
-SYM054+1.p: symbol "qmltpeq" without axiomatization
-SYM055+1.p: symbol "=" without axiomatization
-SYM056+1.p: symbol "=" without axiomatization
-SYM057+1.p: symbol "=" without axiomatization
-SYM058+1.p: symbol "qmltpeq" without axiomatization
-SYM064+1.p: symbol "=" without axiomatization
-SYM068+1.p: symbol "=" and "qmltpeq" without axiomatization
-SYM069+1.p: symbol "qmltpeq" without axiomatization
-SYM070+1.p: symbol "qmltpeq" without axiomatization
-SYM071+1.p: symbol "qmltpeq" without axiomatization
-SYM072+1.p: symbol "qmltpeq" without axiomatization
+SYM052+1.p: symbol "!=" without axiomatization (fixed, Alex)
+SYM054+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
+SYM055+1.p: symbol "=" without axiomatization (fixed, Alex)
+SYM056+1.p: symbol "=" without axiomatization (fixed, Alex)
+SYM057+1.p: symbol "=" without axiomatization (fixed, Alex)
+SYM058+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
+SYM064+1.p: symbol "=" without axiomatization (fixed, Alex)
+SYM068+1.p: symbol "=" and "qmltpeq" without axiomatization (fixed, Alex)
+SYM069+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
+SYM070+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
+SYM071+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
+SYM072+1.p: symbol "qmltpeq" without axiomatization (fixed, Alex)
 SYM082+1.p: parentheses (fixed)
-SYM085+1.p: symbol "=" without axiomatization
+SYM085+1.p: symbol "=" without axiomatization (fixed, Alex)
 SYM113+1.p: parentheses (fixed)
 SYM114+1.p: parentheses (fixed)
 SYM122+1.p: parentheses (fixed)
