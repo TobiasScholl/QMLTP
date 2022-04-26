@@ -42,12 +42,12 @@ qmf(transitivity,axiom,(
       ( ( qmltpeq(X,Y)
         & qmltpeq(Y,Z) )
      => qmltpeq(X,Z) )   )).
-     
-     
+
 qmf(f_substitution_1,axiom,(
-    ! [A,B,C] : 
-      ( qmltpeq(A,B)
-     => qmltpeq(f(A),f(B)) )   )).
+    ! [A,B] : 
+      ( ( qmltpeq(A,B)
+        & f(A) )
+     => f(B) )   )).
 
 qmf(con,conjecture,
 ((! [X] : (#box  : (? [Y] : (qmltpeq(Y , X))))) => ((#box : (! [X] : f(X))) => (! [X] : (#box : (f(X))))))).
