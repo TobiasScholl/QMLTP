@@ -1,9 +1,3 @@
-% semantics
-thf(semantics,logic,$modal ==
-[$constants == $rigid,
-$quantification == $constant,
-$modalities == $modal_system_S5]).
-% modalities
 
 % propositions
 thf(v6_type,type,(v6 : ($o))).
